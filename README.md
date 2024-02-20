@@ -10,7 +10,7 @@ The regex patterns contain regular expressions for Visa and MasterCard credit ca
 (?:[0-9]{3})?: this specifies that the last three digits are optional and should be exactly 3 digits if present.
 $: end of the string.
 
-**MasterCard Pattern**: /^(?:5[1-5][0-9]{14}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|272[0-7])$/
+**MasterCard Pattern**: /^(?:5[1-5][0-9]{14}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|272[0-7])$/  
 ^: start of the string.
 5[1-5]: this specifies that the card number must start with a 5 followed by a digit between 1 and 5.
 [0-9]{14}: this matches exactly 14 digits after the initial digit.
